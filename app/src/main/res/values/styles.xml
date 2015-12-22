@@ -1,0 +1,98 @@
+<!--
+  ~ Project: Forest violations
+  ~ Purpose: Mobile application for registering facts of the forest violations.
+  ~ Author:  Dmitry Baryshnikov (aka Bishop), bishop.dev@gmail.com
+  ~ ******************************************************************************
+  ~ Copyright (c) 2015-2015. NextGIS, info@nextgis.com
+  ~
+  ~ This is free and unencumbered software released into the public domain.
+  ~ 
+  ~ Anyone is free to copy, modify, publish, use, compile, sell, or
+  ~ distribute this software, either in source code form or as a compiled
+  ~ binary, for any purpose, commercial or non-commercial, and by any
+  ~ means.
+  ~ 
+  ~ In jurisdictions that recognize copyright laws, the author or authors
+  ~ of this software dedicate any and all copyright interest in the
+  ~ software to the public domain. We make this dedication for the benefit
+  ~ of the public at large and to the detriment of our heirs and
+  ~ successors. We intend this dedication to be an overt act of
+  ~ relinquishment in perpetuity of all present and future rights to this
+  ~ software under copyright law.
+  ~ 
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  ~ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+  ~ IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+  ~ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+  ~ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+  ~ OTHER DEALINGS IN THE SOFTWARE.
+  ~ 
+  ~ For more information, please refer to <http://unlicense.org>
+  -->
+
+<resources>
+
+    <attr name="tabSecondaryTextColor" format="reference"/>
+    <attr name="CoordinatesPickerBackground" format="reference"/>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Light" parent="Theme.NextGIS.AppCompat.Light">
+        <item name="tabTextColor">@color/tabTextColor</item>
+        <item name="tabSecondaryTextColor">@color/tabSecondaryTextColor</item>
+        <item name="CoordinatesPickerBackground">@drawable/ic_maps_pin_light</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.NextGIS.AppCompat.Dark">
+        <item name="tabTextColor">@color/tabTextColor</item>
+        <item name="tabSecondaryTextColor">@color/tabSecondaryTextColor</item>
+        <item name="CoordinatesPickerBackground">@drawable/ic_maps_pin_dark</item>
+    </style>
+
+    <style name="status_panel">
+        <item name="android:textViewStyle">@style/status_panel_text</item>
+    </style>
+
+    <style name="status_panel_text"
+           parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <style name="status_panel_text_land"
+           parent="status_panel_text">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="description_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="normal_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="paragraph_text" parent="normal_text">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CoordinatesPicker" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:background">?attr/CoordinatesPickerBackground</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+</resources>
