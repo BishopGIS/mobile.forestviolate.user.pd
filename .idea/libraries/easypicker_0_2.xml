@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="easypicker-0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/maplibui/build/intermediates/exploded-aar/com.4ert/easypicker/0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/maplibui/build/intermediates/exploded-aar/com.4ert/easypicker/0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.4ert/easypicker/0.2/aa32be113972f40ba73f45219d2400d6da366a54/easypicker-0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -45,6 +45,8 @@
     <string name="action_about">О программе</string>
     <string name="topo">Topo</string>
     <string name="contact">Контакт</string>
+    <string name="name">Name</string>
+    <string name="felling">Felling</string>
     <string name="fire">Пожар</string>
     <string name="geomixer_fv_tiles">Лесонарушения растр (GeoMixer)</string>
     <string name="sf_login_title">Аккаунт</string>
